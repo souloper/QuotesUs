@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+
+body {
+  /* min-width: 300px;
+    min-height: 315px; */
+  /* justify-content: center; */
+  border-radius: 10px;
+}
+
+.bg-img {
+  background-image: url("https://picsum.photos/350/350?blur=2");
+
+  width: 300px;
+  height: 350px;
+  border-radius: 4px;
+  box-shadow: 20px 20px 50px grey;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.heading__title {
+  font-family: "Dancing Script", cursive;
+  font-size: 2em;
+  font-weight: 400;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+  margin-top: -15px;
+  padding-bottom: 5px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  border: 0;
+  z-index: 1;
+}
+
+.card__body {
+  padding: 9px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  border-radius: 6px;
+  border: 1.5px solid lightcyan;
+  text-shadow: 5px 5px 10px black;
+  text-align: center;
+  z-index: 2;
+}
+
+.footer__author {
+  font-size: 15px;
+}
+
+.footer__details {
+  color: grey;
+  font-size: 12px;
+  z-index: 0;
+}

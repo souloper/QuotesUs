@@ -1,0 +1,19 @@
+{
+  "name": "quotes-us",
+  "version": "1.0.0",
+  "description": "QuotesUs is a browser extension that will be used to instantly encourage and brighten someone's day. The open API is used to collect quotes from world famous people based on the backdrop picture provided for each quote.",
+  "main": "jquery-3.6.0.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souloper/QuotesUs.git"
+  },
+  "author": "Soumya Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souloper/QuotesUs/issues"
+  },
+  "homepage": "https://github.com/souloper/QuotesUs#readme"
+}
